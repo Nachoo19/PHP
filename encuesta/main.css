@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form__encuesta {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20vh auto;
+    background: rgba(163, 162, 160,0.2);
+    padding: 10px 2rem;
+    border-radius: 5px;
+}
+.form__encuesta h2 {
+    text-align: center;
+}
+p {
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    background: rgba(237, 206, 145, .2);
+    margin: 5px;
+    border-radius: 4px;
+}
+.form__encuesta input[type="submit"]{
+    display: inline-block;
+    min-width: 70px;
+    width: 90px;
+    padding: 6px 15px;
+    margin:  5px auto;
+    background: rgba(163, 162, 160,0.2);
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+.form__encuesta input[type="submit"]:hover {
+    background: rgba(163, 162, 160);
+}
+.opcion{
+    padding: 5px 0;
+}
+
+.barra{
+    background-color:rgb(152, 196, 236);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.seleccionado{
+    background-color: rgb(33, 90, 143);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+}
